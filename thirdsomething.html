@@ -1,62 +1,75 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Cage Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title> My Cafe </title>
+    <link rel="stylesheet" href="thirdsomething.css" />
     <script src="script.js"></script>
   </head>
   <body>
     <header>
-      <h1>Welcome to Cage Website</h1>
+      <h1>Welcome to our Cafe </h1>
       <nav>
         <ul>
+          <li><a href="#menu">Menu</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#cages">Cages</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
-    
+
+    <section id="hero">
+      <h2>Your Favorite Cafe</h2>
+      <p>Discover our delicious menu and cozy atmosphere</p>
+      <a href="#menu">View Menu</a>
+    </section>
+
+    <section id="menu">
+      <h2>Our Menu</h2>
+      <div class="menu-item">
+        <img src="./45901041_l-scaled.jpg" alt="Coffee"  width="350px"/>
+        <h3>Coffee</h3>
+        <p>Americano, Espresso, Latte, Cappuccino, Mocha</p>
+        <p><strong>$3.50</strong></p>
+      </div>
+      <div class="menu-item">
+        <img src="./scale_1200.webp" alt="Croissant" width="350px"/>
+        <h3>Croissant</h3>
+        <p>Plain, Chocolate, Almond</p>
+        <p><strong>$2.50</strong></p>
+      </div>
+      <div class="menu-item">
+        <img src="tosty-xleb-buterbrod-pomidory-syr-vetchina-salat-listya-eda.jpg" alt="Sandwich" width="350px"/>
+        <h3>Sandwich</h3>
+        <p>Ham and Cheese, Turkey and Avocado, Veggie</p>
+        <p><strong>$5.50</strong></p>
+      </div>
+    </section>
+
     <section id="about">
       <h2>About Us</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at justo ut sapien condimentum laoreet. Duis iaculis, justo ut euismod rutrum, sem odio aliquet velit, sed consequat est mi sit amet quam.</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at justo ut
+        sapien condimentum laoreet. Duis iaculis, justo ut euismod rutrum, sem
+        odio aliquet velit, sed consequat est mi sit amet quam.
+      </p>
     </section>
-    
-    <section id="cages">
-      <h2>Our Cages</h2>
-      <div class="cage">
-        <img src="cage1.jpg" alt="Cage 1">
-        <h3>Cage 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-      <div class="cage">
-        <img src="cage2.jpg" alt="Cage 2">
-        <h3>Cage 2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-      <div class="cage">
-        <img src="cage3.jpg" alt="Cage 3">
-        <h3>Cage 3</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-    </section>
-    
+
     <section id="contact">
       <h2>Contact Us</h2>
       <form>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br>
+        <input type="text" id="name" name="name" /><br />
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br>
+        <input type="email" id="email" name="email" /><br />
         <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea><br>
-        <input type="submit" value="Send">
+        <textarea id="message" name="message"></textarea><br />
+        <input type="submit" value="Send" />
       </form>
     </section>
-    
+
     <footer>
-      <p>&copy; 2023 Cage Website. All rights reserved.</p>
+      <p>&copy; 2023 My Cafe . All rights reserved.</p>
+      <p >Visit us on our Instagram  </p>
     </footer>
   </body>
 </html>
-

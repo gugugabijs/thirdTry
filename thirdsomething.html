@@ -1,12 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Cage Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
   </head>
   <body>
-    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing.</h1>
+    <header>
+      <h1>Welcome to Cage Website</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#cages">Cages</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at justo ut sapien condimentum laoreet. Duis iaculis, justo ut euismod rutrum, sem odio aliquet velit, sed consequat est mi sit amet quam.</p>
+    </section>
+    
+    <section id="cages">
+      <h2>Our Cages</h2>
+      <div class="cage">
+        <img src="cage1.jpg" alt="Cage 1">
+        <h3>Cage 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="cage">
+        <img src="cage2.jpg" alt="Cage 2">
+        <h3>Cage 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="cage">
+        <img src="cage3.jpg" alt="Cage 3">
+        <h3>Cage 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </section>
+    
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea><br>
+        <input type="submit" value="Send">
+      </form>
+    </section>
+    
+    <footer>
+      <p>&copy; 2023 Cage Website. All rights reserved.</p>
+    </footer>
   </body>
 </html>
+
